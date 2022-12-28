@@ -12,7 +12,5 @@ This is the code for the [Request Header Parser Microservice project at freecode
 ## Microservice Description
 This Header Parser Microservice will handle API Endpoint at `/api/whoami`, the microservice will parse the request headers and then responds with the ip address, language, and then the user agent info, for example:
 ```Javascript
-{"ipaddress":"::ffff:127.0.0.1",
- "language":"en-US,en;q=0.5",
- "software":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"}
+{"ipaddress":"::ffff:127.0.0.1","language":"en-US,en;q=0.5","software":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"}
 ```
